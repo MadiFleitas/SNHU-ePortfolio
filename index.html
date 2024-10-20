@@ -1,10 +1,65 @@
-<h1>Welcome to My ePortfolio</h1>
-<p>Hi! I'm Madi, a recent graduate of the Computer Science program at SNHU. This ePortfolio showcases my skills and growth throughout the program, including projects that demonstrate my abilities in software design, algorithms, and databases.</p>
-<p>Explore the sections to learn more about my work and accomplishments.</p>
-
-<nav>
-    <a href="index.html">Home</a> |
-    <a href="self-assessment.html">Self-Assessment</a> |
-    <a href="artifacts.html">Artifacts</a> |
-    <a href="code-review.html">Code Review</a>
-</nav>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory Management System ePortfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="self-assessment.html">Self-Assessment</a> |
+            <a href="artifacts.html">Artifacts</a> |
+            <a href="code-review.html">Code Review</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Welcome to My Inventory Management System ePortfolio</h1>
+        <p>This project is a comprehensive inventory management system developed in three different stages: an Android app, a web-based JavaScript app, and a database-enhanced web dashboard. The project demonstrates skills in Software Design and Engineering, Algorithms and Data Structures, and Databases, providing a complete solution for inventory management across multiple platforms.</p>
+        
+        <h2>Table of Contents</h2>
+        <ul>
+            <li><a href="self-assessment.html">Self-Assessment</a></li>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#software-design">Software Design and Engineering</a></li>
+            <li><a href="#algorithms">Algorithms and Data Structures</a></li>
+            <li><a href="#databases">Databases</a></li>
+            <li><a href="#getting-started">Getting Started</a></li>
+            <li><a href="#project-structure">Project Structure</a></li>
+            <li><a href="#future-enhancements">Future Enhancements</a></li>
+        </ul>
+        
+        <h2 id="overview">Overview</h2>
+        <p>The Inventory Management System began as an Android app, then evolved into a web-based JavaScript application, and finally integrated advanced database functionalities with a dashboard for better data presentation. Each stage addresses different aspects of the project, focusing on improving design, algorithms, and data management.</p>
+        
+        <h2 id="software-design">Software Design and Engineering</h2>
+        <p>The initial version was developed as an Android application using Kotlin. The app supports basic CRUD operations for managing inventory items, including adding, viewing, updating, and deleting records. The <code>DataAdapter.kt</code> file handles data persistence and database interaction.</p>
+        <p>The project was then extended to a web-based application using JavaScript, featuring a responsive user interface and cross-platform access. It is built using components like <code>MainComponent.js</code> and <code>OtherComponents.js</code>, following the Model-View-Controller (MVC) pattern for better code organization.</p>
+        
+        <h2 id="algorithms">Algorithms and Data Structures</h2>
+        <p>The web-based app improves data handling through caching mechanisms implemented in JavaScript, optimizing data retrieval based on usage patterns. This helps reduce the number of direct database queries and improves overall performance. Algorithms for sorting and filtering inventory items have been implemented to allow efficient searching.</p>
+        <p>Data structures are used to validate user inputs and maintain consistent data formats. Additional algorithms ensure data integrity by performing checks before data is added or modified.</p>
+        
+        <h2 id="databases">Databases</h2>
+        <p>The project integrates a database backend that supports both the Android and JavaScript versions. Queries handle data manipulation tasks, such as searching, sorting, and aggregating inventory data. A web-based dashboard is included to visualize inventory data using queries, supporting data mining techniques to refine search results and present relevant information.</p>
+        <p>In the JavaScript version, the Mongoose library is used for schema creation and database access, providing a structured approach to data operations. Controllers and routes manage API endpoints, tested using Postman to ensure robust and secure database access.</p>
+        
+        <h2 id="getting-started">Getting Started</h2>
+        <p><strong>Prerequisites:</strong></p>
+        <ul>
+            <li>Android Studio for the Android app version</li>
+            <li>Node.js and npm for the JavaScript web app</li>
+            <li>A MongoDB database for storing inventory data</li>
+            <li>Git for version control</li>
+        </ul>
+        
+        <h2 id="project-structure">Project Structure</h2>
+        <p>The project is organized into separate sections for each version of the application, with a consistent file structure for easy navigation.</p>
+        
+        <h2 id="future-enhancements">Future Enhancements</h2>
+        <p>Potential future enhancements include adding user authentication, expanding the caching system, and integrating advanced analytics for inventory trends.</p>
+    </main>
+</body>
+</html>
