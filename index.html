@@ -17,7 +17,7 @@
     </header>
     <main>
         <h1>Welcome to My Inventory Management System ePortfolio</h1>
-        <p>This project is a comprehensive inventory management system developed in three different stages: an Android app, a web-based JavaScript app, and a database-enhanced web dashboard. The project demonstrates skills in Software Design and Engineering, Algorithms and Data Structures, and Databases, providing a complete solution for inventory management across multiple platforms.</p>
+        <p>This ePortfolio showcases my work on the Inventory Management System project, developed through three stages: an Android app, a web-based JavaScript application, and a database-enhanced web dashboard. The project demonstrates my skills in Software Design and Engineering, Algorithms and Data Structures, and Databases, providing a comprehensive solution for inventory management across multiple platforms.</p>
         
         <h2>Table of Contents</h2>
         <ul>
@@ -26,25 +26,35 @@
             <li><a href="#software-design">Software Design and Engineering</a></li>
             <li><a href="#algorithms">Algorithms and Data Structures</a></li>
             <li><a href="#databases">Databases</a></li>
+            <li><a href="#code-review">Code Review</a></li>
             <li><a href="#getting-started">Getting Started</a></li>
             <li><a href="#project-structure">Project Structure</a></li>
             <li><a href="#future-enhancements">Future Enhancements</a></li>
         </ul>
         
         <h2 id="overview">Overview</h2>
-        <p>The Inventory Management System began as an Android app, then evolved into a web-based JavaScript application, and finally integrated advanced database functionalities with a dashboard for better data presentation. Each stage addresses different aspects of the project, focusing on improving design, algorithms, and data management.</p>
+        <p>The Inventory Management System started as an Android app for basic inventory management and evolved into a comprehensive solution incorporating a web-based JavaScript application and a database-enhanced dashboard. Each stage focuses on different aspects, including software design, data optimization, and database integration, allowing the system to support efficient inventory management across multiple platforms.</p>
         
         <h2 id="software-design">Software Design and Engineering</h2>
-        <p>The initial version was developed as an Android application using Kotlin. The app supports basic CRUD operations for managing inventory items, including adding, viewing, updating, and deleting records. The <code>DataAdapter.kt</code> file handles data persistence and database interaction.</p>
-        <p>The project was then extended to a web-based application using JavaScript, featuring a responsive user interface and cross-platform access. It is built using components like <code>MainComponent.js</code> and <code>OtherComponents.js</code>, following the Model-View-Controller (MVC) pattern for better code organization.</p>
+        <p>The initial version was developed as an Android application using Kotlin. It supports basic CRUD operations for managing inventory items, such as adding, viewing, updating, and deleting records. The <code>DataAdapter.kt</code> file handles data persistence and database interaction.</p>
+        <p>The project later extended to a web-based application using JavaScript. The web app features a responsive user interface and provides cross-platform accessibility. It is built using components like <code>MainComponent.js</code> and <code>OtherComponents.js</code>, following the Model-View-Controller (MVC) architecture for better organization and maintainability.</p>
         
         <h2 id="algorithms">Algorithms and Data Structures</h2>
-        <p>The web-based app improves data handling through caching mechanisms implemented in JavaScript, optimizing data retrieval based on usage patterns. This helps reduce the number of direct database queries and improves overall performance. Algorithms for sorting and filtering inventory items have been implemented to allow efficient searching.</p>
-        <p>Data structures are used to validate user inputs and maintain consistent data formats. Additional algorithms ensure data integrity by performing checks before data is added or modified.</p>
+        <p>The web-based app includes various algorithmic improvements for data handling, including caching mechanisms implemented in JavaScript to optimize data retrieval based on usage patterns. These techniques reduce the number of direct database queries, resulting in better performance. Sorting and filtering algorithms were also implemented to enable efficient data searching.</p>
+        <p>Data structures were used to validate user inputs and maintain consistent data formats. Additionally, algorithms were developed to ensure data integrity by performing checks before data was added or modified.</p>
         
         <h2 id="databases">Databases</h2>
-        <p>The project integrates a database backend that supports both the Android and JavaScript versions. Queries handle data manipulation tasks, such as searching, sorting, and aggregating inventory data. A web-based dashboard is included to visualize inventory data using queries, supporting data mining techniques to refine search results and present relevant information.</p>
-        <p>In the JavaScript version, the Mongoose library is used for schema creation and database access, providing a structured approach to data operations. Controllers and routes manage API endpoints, tested using Postman to ensure robust and secure database access.</p>
+        <p>The system integrates a database backend that supports both the Android and JavaScript versions of the app. Queries handle data manipulation tasks such as searching, sorting, and aggregating inventory data. A web-based dashboard visualizes inventory data using database queries and supports data mining techniques to refine search results and present relevant information to the user.</p>
+        <p>For the JavaScript version, the Mongoose library was used for schema creation and database access, providing a structured approach to data operations. Controllers and routes were defined to manage API endpoints, and the database functionality was thoroughly tested using Postman to ensure robust and secure data access.</p>
+        
+        <h2 id="code-review">Code Review</h2>
+        <p>The code review covers the development and enhancements made to the Inventory Management System project. It discusses the original implementation of the Android app, the subsequent transition to a web-based application, and the integration of advanced database functionalities. Key areas of focus include improvements to software architecture, algorithm optimization, and database management practices.</p>
+        <p>Watch the full code review video on YouTube:</p>
+        <p>
+            <a href="https://www.youtube.com/watch?v=-oxsBUGuGCQ" target="_blank">
+                <button>Watch Code Review Video</button>
+            </a>
+        </p>
         
         <h2 id="getting-started">Getting Started</h2>
         <p><strong>Prerequisites:</strong></p>
@@ -56,7 +66,18 @@
         </ul>
         
         <h2 id="project-structure">Project Structure</h2>
-        <p>The project is organized into separate sections for each version of the application, with a consistent file structure for easy navigation.</p>
+        <p>The project is organized into separate sections for each version of the application, with a consistent file structure for easy navigation:</p>
+        <ul>
+            <li><strong>Android App:</strong> Contains the Kotlin-based code for the mobile application, including the <code>DataAdapter.kt</code> file for database interactions.</li>
+            <li><strong>Web-Based JavaScript App:</strong> Includes the main components, such as <code>MainComponent.js</code> and <code>OtherComponents.js</code>, following the MVC pattern.</li>
+            <li><strong>Web Dashboard:</strong> Contains database integration and visualization code, with schemas, routes, and controllers managed using Mongoose.</li>
+        </ul>
+
+        <h2 id="future-enhancements">Future Enhancements</h2>
+        <p>Future improvements may include adding user authentication, expanding the caching system, and integrating predictive analytics for inventory trends. Additional performance optimizations for the web dashboard and mobile app are also under consideration.</p>
     </main>
+    <footer>
+        <p>&copy; 2024 Madison Fleitas. All rights reserved.</p>
+    </footer>
 </body>
 </html>
