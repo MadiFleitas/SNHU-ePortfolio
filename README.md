@@ -3,13 +3,15 @@
 This project is a comprehensive inventory management system developed in three different stages: an Android app, a web-based JavaScript app, and a database-enhanced web dashboard. The project demonstrates skills in Software Design and Engineering, Algorithms and Data Structures, and Databases, providing a complete solution for inventory management across multiple platforms.
 
 ## Table of Contents
-1. [Overview](#overview)
-2. [Software Design and Engineering](#software-design-and-engineering)
-3. [Algorithms and Data Structures](#algorithms-and-data-structures)
-4. [Databases](#databases)
-5. [Getting Started](#getting-started)
-6. [Project Structure](#project-structure)
-7. [Future Enhancements](#future-enhancements)
+1. [Self-Assessment](self-assessment.html)
+2. [Overview](#overview)
+3. [Software Design and Engineering](#software-design-and-engineering)
+4. [Algorithms and Data Structures](#algorithms-and-data-structures)
+5. [Databases](#databases)
+6. [Getting Started](#getting-started)
+7. [Project Structure](#project-structure)
+8. [Future Enhancements](#future-enhancements)
+
 
 ## Overview
 
