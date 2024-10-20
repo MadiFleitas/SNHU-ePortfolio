@@ -18,11 +18,44 @@
     <main>
         <h1>Artifact 1: Inventory Management Android App</h1>
         <h2>Description</h2>
-        <p>This artifact is an Android app developed for managing inventory items. It was initially created during a mobile development course and includes features such as adding, viewing, updating, and deleting inventory records. The app was built using Kotlin and leverages a local database for data persistence.</p>
+        <p>This artifact is an Android app developed for managing inventory items. It was initially created during a mobile development course and includes features such as adding, viewing, updating, and deleting inventory records. The app was built using Kotlin and leverages a local SQLite database for data persistence, providing an offline mode for managing inventory data without requiring internet access.</p>
+
         <h2>Justification</h2>
-        <p>I selected this artifact because it demonstrates my skills in software design and engineering. The project showcases my ability to create a functional and user-friendly application, handle data persistence, and apply software architecture principles. Enhancements included migrating the app's core functionality to a web-based platform to expand accessibility.</p>
+        <p>I selected this artifact because it demonstrates my skills in software design and engineering. The project showcases my ability to create a functional and user-friendly application, manage data persistence, and apply software architecture principles, such as the Model-View-ViewModel (MVVM) pattern. This architecture separates the app's business logic from its user interface, making the code more maintainable and scalable. Enhancements included expanding the app's core functionality to a web-based platform for increased accessibility and a broader user base.</p>
+
+        <h2>Technologies Used</h2>
+        <ul>
+            <li><strong>Kotlin:</strong> The primary programming language used to develop the app, chosen for its modern syntax and compatibility with the Android platform.</li>
+            <li><strong>SQLite:</strong> Used for local data storage, providing an embedded database solution that allows the app to perform CRUD operations on inventory items.</li>
+            <li><strong>Android Studio:</strong> The integrated development environment (IDE) used for writing, testing, and debugging the app's code.</li>
+            <li><strong>MVVM Architecture:</strong> The app follows the Model-View-ViewModel pattern to separate data handling from the user interface, promoting a clean code structure.</li>
+        </ul>
+
+        <h2>Challenges Faced</h2>
+        <p>During the development of this app, one of the main challenges was ensuring data synchronization between the local SQLite database and the app's user interface, especially when multiple data updates occurred simultaneously. Additionally, implementing the MVVM architecture required careful consideration to ensure that the data flow remained consistent and that the app responded correctly to changes in the data.</p>
+
+        <h2>Solutions Implemented</h2>
+        <p>To address the synchronization issue, I used Android's <code>LiveData</code> and <code>ViewModel</code> classes to create a reactive data flow. These components allowed the app to automatically update the user interface whenever the data changed, ensuring a seamless user experience. Additionally, I used the <code>Room</code> library to simplify SQLite database interactions and handle data operations asynchronously, which helped avoid potential performance issues related to database access.</p>
+
         <h2>Enhancement Reflection</h2>
-        <p>While enhancing this artifact, I learned about cross-platform development challenges and refined my skills in software design. The process involved restructuring the app's architecture to make it compatible with a web-based framework, which required significant adaptation of the existing code. This enhancement improved the app's usability by making it accessible from both mobile and web platforms.</p>
+        <p>While enhancing this artifact, I learned a great deal about the complexities of cross-platform development and refined my skills in software design. The process involved restructuring the app's architecture to make it compatible with a web-based framework, which required significant adaptation of the existing codebase. This enhancement improved the app's usability by allowing it to run on both mobile and web platforms, thereby reaching a broader audience.</p>
+        <p>Specifically, the enhancement involved:
+            <ul>
+                <li>Implementing a RESTful API for data synchronization between the Android app and the web-based version, enabling seamless data sharing.</li>
+                <li>Adapting the data layer to support both SQLite for offline use and a cloud-based database for web access.</li>
+                <li>Modifying the user interface to ensure consistency across different platforms while maintaining platform-specific features for a native feel.</li>
+            </ul>
+        </p>
+
+        <h2>Lessons Learned</h2>
+        <p>The development and enhancement of the Inventory Management Android App provided valuable insights into mobile application development and cross-platform compatibility. I gained a deeper understanding of using architecture patterns like MVVM to create maintainable code and managing data synchronization in mobile apps. Additionally, I improved my skills in designing user interfaces that work well across multiple devices.</p>
+        <p>In future projects, I plan to incorporate cloud-based services from the start to simplify data synchronization across platforms and consider using hybrid development frameworks (e.g., Flutter or React Native) for easier cross-platform development.</p>
+
+        <h2>Download the Artifact</h2>
+        <p><a href="downloads/InventoryManagementApp.zip" download>Download the Inventory Management Android App</a></p>
     </main>
+    <footer>
+        <p>&copy; 2024 Madison Fleitas. All rights reserved.</p>
+    </footer>
 </body>
 </html>
