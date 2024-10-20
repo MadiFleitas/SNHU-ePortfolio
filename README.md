@@ -58,8 +58,3 @@ The Inventory Management System began as an Android app, then evolved into a web
 - Node.js and npm for the JavaScript web app.
 - A MongoDB database for storing inventory data.
 - Git for version control.
-
-### Installation
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/username/inventory-management-system.git
